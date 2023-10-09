@@ -1,9 +1,4 @@
 
-<h3 align="center">Coffe store Template</h3>
-
-<p align="center">
- Built with React JS, Bootstrap 5
-  <br>
 
 ## Coffee store Template
 
