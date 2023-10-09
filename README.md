@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="#">
-    <img src="public/images/rb_logo.png" alt="RBE logo" target="_blank" width="200" height="165">
-  </a>
-</p>
+
 <h3 align="center">Coffe store Template</h3>
 
 <p align="center">
