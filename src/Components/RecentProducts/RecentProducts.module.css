@@ -1,0 +1,47 @@
+.sliderContainer {
+  position: relative;
+
+  margin: auto;
+}
+
+.prev,
+.next {
+  padding: 0.5rem 1rem;
+
+  width: 5rem;
+  height: 5rem;
+  color: var(--color-white);
+  background-color: var(--color-main);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev {
+  left: -2rem;
+}
+.next {
+  right: -2rem;
+}
+
+.viewAllBtn {
+  font-size: var(--btn-size);
+  margin: 10rem auto;
+  color: var(--color-main);
+  background-color: transparent;
+}
+
+/* start responsive */
+/* <600px */
+@media (max-width: 37.5em) {
+  .sectionTitle {
+    margin-top: 10rem;
+  }
+}
+
+/* end responsive */

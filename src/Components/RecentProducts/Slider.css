@@ -1,0 +1,85 @@
+.test {
+  position: relative;
+  max-width: 150rem;
+  margin: auto;
+}
+.swiper-wrapper {
+}
+.swiper-container {
+  /* width: 100%; */
+  max-width: 140rem;
+}
+
+.swiper-slide {
+  width: 30rem;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+
+.prev,
+.next {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 50%;
+  z-index: 5555;
+  transform: translateY(-50%);
+  color: var(--color-white);
+  background-color: var(--color-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 0px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: var(--color-main-dark);
+}
+
+.swiper-container {
+  width: 35rem;
+}
+
+/* <600px */
+@media screen and (min-width: 37.5em) {
+  .swiper-container {
+    width: 70rem;
+  }
+}
+
+/* <800px */
+@media screen and (min-width: 50em) {
+  .swiper-container {
+    width: 85rem;
+  }
+}
+
+/* <900px */
+@media screen and (min-width: 56.25em) {
+  .swiper-container {
+    width: 105rem;
+  }
+}
+/* <1200px */
+@media screen and (min-width: 75em) {
+  .swiper-container {
+    width: 125rem;
+  }
+}
+/* <1300px */
+@media screen and (min-width: 81.25em) {
+  .swiper-container {
+    width: 140rem;
+  }
+}

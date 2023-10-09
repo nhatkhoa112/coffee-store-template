@@ -1,0 +1,59 @@
+.about {
+  background-image: url("./../../imgs/about-bg.png");
+  height: 35rem;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.h3 {
+  color: var(--color-main);
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: var(--h2-size);
+  font-weight: bold;
+}
+
+.p {
+  width: 90%;
+  line-height: 1.6;
+  margin: 2rem 0;
+  font-size: var(--p-size);
+}
+
+@media (max-width: 37.5em) {
+  .features {
+    margin: 10rem auto !important;
+  }
+  .signature {
+    margin: 3rem auto;
+  }
+  .about {
+    text-align: center;
+    background-image: url("./../../imgs/about-bg.png");
+    height: 35rem;
+    background-size: 80%;
+    background-repeat: no-repeat;
+  }
+
+  .h3 {
+    color: var(--color-main);
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .p {
+    width: 100%;
+    line-height: 1.6;
+    margin: 2rem 0;
+
+    padding: 0 2rem;
+    text-align: center;
+  }
+}

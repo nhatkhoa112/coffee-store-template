@@ -1,0 +1,41 @@
+.featureBox {
+  margin: 0 2rem 3rem 0;
+}
+.featureBox img {
+  margin-bottom: 2rem;
+}
+
+.featureBox h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.featureBox p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+/* start responsive */
+/* <600px */
+@media (max-width: 37.5em) {
+  .featureBox {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .featureBox img {
+    margin: 2rem auto;
+  }
+
+  .featureBox h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .featureBox p {
+    text-align: center;
+    line-height: 1.7;
+  }
+}
+
+/* end responsive */

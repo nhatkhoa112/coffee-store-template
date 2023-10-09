@@ -1,0 +1,87 @@
+.card {
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .imgContainer {
+  height: 30rem;
+  margin-bottom: 3.5rem;
+  overflow: hidden;
+}
+
+.card .imgContainer img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card h3 {
+  font-size: var(--h3-size);
+  font-weight: bold;
+  color: var(--color-main);
+}
+
+.card p {
+  font-size: var(--p-size);
+}
+
+.details {
+  padding: 0.5rem 2rem;
+  background-color: var(--color-post-card-footer);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.details > div:last-child {
+  font-size: 1.5rem;
+}
+
+.deteMonth,
+.dateYear {
+  font-size: 1.2rem;
+}
+
+.details > div:first-child {
+  display: flex;
+  align-items: center;
+}
+.details .day {
+  font-weight: bold;
+  color: var(--color-main);
+  font-size: 4rem;
+  margin-right: 2rem;
+  transition: 0.5s;
+}
+
+.details:hover .day {
+  color: var(--color-black);
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+/* start responsive */
+/* <800px */
+@media (max-width: 50rem) {
+  .card {
+    height: 55rem;
+  }
+  .card h3 {
+  }
+  .card p {
+  }
+  .details .day {
+    margin-right: 0.5rem;
+  }
+  .details {
+    gap: 1rem;
+  }
+}
+
+/* end responsive */

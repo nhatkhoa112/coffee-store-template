@@ -1,0 +1,15 @@
+.card {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  color: #c0aa83;
+  font-weight: bold;
+  font-size: 3rem;
+}

@@ -1,0 +1,93 @@
+.left {
+  background-image: url("./../../imgs/discount-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.left h3 {
+  color: var(--color-main);
+  font-size: var(--h3-size);
+  font-weight: bold;
+}
+
+.left h2 {
+  font-weight: bold;
+  font-size: 5rem;
+}
+.left p {
+  text-align: center;
+  font-size: var(--p-size);
+
+  line-height: 1.8;
+  width: 80%;
+}
+
+.left .getBtn {
+  font-size: var(--btn-size);
+}
+
+/* <1200px */
+@media (max-width: 75em) {
+  .imgContainer {
+    width: 50rem;
+    margin: auto !important;
+
+    overflow: hidden;
+  }
+  .imgContainer img {
+    width: 100%;
+  }
+  .left {
+    background-image: url("./../../imgs/discount-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+  }
+
+  .left img {
+    margin: 2rem 0rem 0rem 0rem;
+  }
+  .left h3 {
+    color: var(--color-main);
+    font-weight: bold;
+  }
+
+  .left h2 {
+    font-weight: bold;
+  }
+  .left p {
+    text-align: center;
+    line-height: 1.8;
+    width: 80%;
+    margin: 2rem 0;
+  }
+}
+
+/* <800px */
+@media (max-width: 50em) {
+  .left p {
+  }
+}
+
+/* <600px */
+
+@media (max-width: 37.5em) {
+  .left h3 {
+  }
+  .left h2 {
+  }
+  .left p {
+    margin: 2rem auto;
+  }
+}

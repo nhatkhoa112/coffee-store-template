@@ -1,0 +1,94 @@
+/* start global variables */
+:root {
+  --color-black: #000;
+  --color-gray-dark: #242424;
+  --color-gray-light: #8e8e8e;
+  --color-white: #fff;
+  --color-main: #c0aa83;
+  --color-main-dark: #947e58;
+  --color-main-light-1: #d3c4a8;
+  --color-main-light-2: #d9ccb5;
+  --color-mobile-nav-bg: #a29070a3;
+  --color-link-active: #ffe7bb;
+  --color-post-card-footer: #f6f6f6;
+
+  /* typo */
+  --h1-size: 5rem;
+  --h2-size: 3rem;
+  --h3-size: 2rem;
+  --p-size: 1.6rem;
+  --btn-size: 2rem;
+  --section-header-b-size: 15rem; /* section header back title size*/
+  --section-header-fu-size: 2rem; /* section header front top title size */
+  --section-header-fd-size: 4rem; /* section header front down title size*/
+}
+
+@media (max-width: 800px) {
+  :root {
+    --h1-size: 4rem;
+    --h2-size: 2.5rem;
+    --h3-size: 2rem;
+    --p-size: 1.6rem;
+    --btn-size: 1.5rem;
+    --section-header-b-size: 4rem; /* section header back title size*/
+    --section-header-fu-size: 2rem; /* section header front top title size */
+    --section-header-fd-size: 3rem; /* section header front down title size*/
+  }
+}
+
+/* end global variables */
+
+* {
+  transition: all 0.3;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav-link {
+  color: var(--color-white) !important;
+  font-size: var(--p-size);
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent !important;
+  border-color: none;
+  font-size: 3rem;
+
+  z-index: 555555;
+}
+
+.navbar-toggler ~ .navbar-collapse.collapse.show {
+  position: relative;
+  z-index: 3000;
+  background-color: var(--color-mobile-nav-bg);
+
+  backdrop-filter: blur(3px);
+
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.dropdown-menu.show {
+  font-size: var(--p-size);
+  background-color: #dac9ab;
+  margin-right: 1rem;
+  box-shadow: 0.2rem 0px 1rem 0px rgb(68 68 68);
+  padding: 1rem;
+}
+
+.dropdown-menu.show a {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+}
+
+.dropdown-menu.show a:focus {
+  background-color: var(--color-link-active);
+}

@@ -1,0 +1,127 @@
+.footer {
+  background: url("./../../imgs/footer_map.png"), rgba(0, 0, 0, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.cpy {
+  text-align: center;
+  color: var(--color-white);
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 7rem;
+}
+
+.cpy > div {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: var(--p-size);
+}
+
+.cpy span:hover {
+  background-color: var(--color-main-light-2);
+}
+
+.cpy > div p:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+.cpy span {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  color: var(--color-black);
+  background-color: var(--color-main);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.cpy span p {
+  margin: 0;
+}
+
+.content {
+  /* font-size: 2rem; */
+  font-size: var(--p-size);
+  margin: 15rem auto 10rem auto;
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.content > div {
+  color: var(--color-gray-light);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content > div:first-of-type p {
+}
+
+.content button {
+  color: var(--color-black);
+}
+
+.content h3 {
+  font-weight: bold;
+  color: var(--color-main);
+  margin-bottom: 5rem;
+}
+
+.content .links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.links p {
+  flex-basis: 50%;
+}
+
+.contacts {
+  color: var(--color-gray-light);
+}
+
+.contacts .icon {
+  color: var(--color-main);
+  margin-right: 1rem;
+}
+
+.contacts p:nth-child(3) {
+  color: var(--color-white);
+}
+
+.contacts p:nth-child(4) {
+  color: var(--color-white);
+}
+
+/* start responsive */
+/* <1000px */
+@media (max-width: 62.5em) {
+  .content {
+  }
+
+  .content h3 {
+    margin: 2rem 0 2rem 0;
+  }
+}
+
+/* end responsive */
