@@ -17,7 +17,6 @@
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [What's included](#whats-included)
 - [Thank](#thanks)
 
 
